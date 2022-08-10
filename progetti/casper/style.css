@@ -26,22 +26,10 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-}
-
-.container {
-    background: var(--color-dark);
-    border-radius: .2rem;
-    padding: 8rem;
-    display: flex;
     flex-flow: column nowrap;
-    gap: 3rem;
-    text-align: center;
-}
-
-.title {
-    font-size: 5.8rem;
+    gap: 4rem;
 }
 
 .casper-price {
-    font-size: 3.2rem;
+    font-size: 10rem;
 }

@@ -27,9 +27,39 @@ body {
     justify-content: center;
     min-height: 100vh;
     flex-flow: column nowrap;
-    gap: 4rem;
+    gap: 6rem;
 }
 
 .casper-price {
-    font-size: 10rem;
+    font-size: 7rem;
+}
+
+
+.button {
+    font-size: 2.1rem;
+    padding: 1.5rem 3rem;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    min-width: 20rem;
+    width: calc(100% - 10rem);
+    border: 1px solid white;
+    transition: background 200ms ease, color 200ms ease;
+}
+
+.button:hover {
+    background: white;
+    color: var(--color-black);
+}
+
+@media only screen and (min-width: 568px) {
+    .casper-price {
+        font-size: 10rem;
+    }
+
+    .button {
+        min-width: 21rem;
+        width: initial;
+    }
 }
